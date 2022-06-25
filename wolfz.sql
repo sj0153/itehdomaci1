@@ -76,15 +76,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `username`, `password`, `created_at`) VALUES
-(14, '1', '$2y$10$0Tbdee.REeSHGfP7znuHfOxAPhDSXMF2.czy5GDYj.EKpgp11YlFu', '2020-11-02 00:49:24'),
-(16, '2', '$2y$10$ZTeEIwR/58b90HbmGl5u3uuUHxo0xHAofomX1zcPkYpI75lNAcoHu', '2020-11-02 00:51:32'),
-(17, '3', '$2y$10$pKwoLzWqUoBlX3z0B9m2fOsDqdX.cfgm1l4bX3oNwHBcEkfeAA/ra', '2020-11-02 00:52:48');
-
---
 -- Indexes for dumped tables
 --
 
